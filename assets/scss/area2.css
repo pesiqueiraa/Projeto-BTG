@@ -1,0 +1,28 @@
+.area2 {
+    color: aliceblue;
+    background-color: rgb(33, 33, 118);
+  }
+  ul{
+    font-size: 30px;
+  line-height: 50px;
+  
+  }
+  h1{ 
+    font-size: 50px;
+  }
+  
+  .texto{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    height: 90%;
+    padding: 5%;
+  }
+  
+  .imagem{
+    
+    align-items: center;
+    justify-content: center;
+  }

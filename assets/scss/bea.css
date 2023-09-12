@@ -1,0 +1,68 @@
+/*=================== CSS DA ÁREA 3 BIA ===================*/
+.portfolio {
+  background-color: #ffffff;
+  color: white;
+  height: 700px;
+  width: 9;
+}
+
+.titulos {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 8rem 0;
+  color: wheat;
+}
+
+.cards {
+  display: grid;
+  /*fracionando a tela "fr"*/
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1100px;
+  margin: 0 auto;
+  grid-gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 25px;
+  box-shadow: 6px 6px 20px #555f6e58;
+  position: relative;
+  border-radius: 5%;
+}
+
+.card .user {
+  position: absolute;
+  top: -18%; /* Ajuste este valor para posicionar a imagem corretamente */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  object-fit: cover; /* Manter a proporção original e cortar a imagem */
+  object-position: center top; /* Posicionar a imagem no centro do topo do card */
+}
+
+.card h3 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.star {
+  width: 20px;
+}
+
+.card p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*=================== CSS DA ÁREA 5 BIA ===================*/
+
+.carrosel-vantagens {
+  background-color: white;
+  color: #05132a;
+  height: 700px;
+  width: 100vw;
+}
